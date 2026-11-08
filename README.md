@@ -1,24 +1,27 @@
-# Reprogramação de cronogramas de projetos com Algoritmos Genéticos
+# Rescheduling Project Schedules with Genetic Algorithms
 
-Trabalho acadêmico (artigo científico) sobre reprogramação (*rescheduling*) de cronogramas de projetos com AG, em Python.
+> 🇧🇷 Resumo em português: [README.pt-BR.md](README.pt-BR.md)
 
-## Frentes
-- **A — RCPSP reativo:** AG gera o cronograma base a partir da PSPLIB; uma atividade atrasa (perturbação); estratégias de reprogramação são comparadas (right-shift, regra de prioridade, AG).
-- **B — Transferência de domínio:** reaproveitar um AG de timetabling universitário (professor–disciplina–sala–horário) para alocação membro–tarefa em projetos (MS-RCPSP, benchmark iMOPSE).
+Academic research project (paper in progress): reactive **rescheduling of project schedules** using genetic algorithms (GA), written in Python.
 
-## Documentação
-- [`TASKS.md`](TASKS.md) — backlog e andamento
-- [`docs/decisions/`](docs/decisions/) — decisões (ADRs)
-- [`docs/references.md`](docs/references.md) — referências
-- [`docs/literature/`](docs/literature/) — fichamentos
-- [`docs/experiments.md`](docs/experiments.md) — diário de experimentos
+## Two research fronts
+- **A — Reactive RCPSP:** a GA builds a baseline schedule for [PSPLIB](https://www.om-db.wi.tum.de/psplib/) instances (Resource-Constrained Project Scheduling Problem); an activity is delayed (disruption); rescheduling strategies are compared (right-shift, priority rule, GA).
+- **B — Domain transfer:** reuse a university course timetabling GA (teacher–course–room–slot) for team member–task assignment in projects (multi-skill RCPSP, [iMOPSE](https://annals-csis.org/proceedings/2015/drp/273.html) benchmark).
 
-## Ambiente
-Python 3.12 gerenciado com [uv](https://docs.astral.sh/uv/) (ver ADR 0001):
+## Status
+Early stage: repository setup and groundwork. See [`TASKS.md`](TASKS.md).
+
+## Setup
+Python 3.12 managed with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uv sync          # cria .venv e instala dependências
-uv run pytest    # testes
+uv sync          # creates .venv and installs dependencies
+uv run pytest    # tests
 ```
 
-Instruções de execução dos experimentos serão adicionadas conforme o código surgir.
+## Documentation (in Portuguese)
+- [`TASKS.md`](TASKS.md) — backlog and progress
+- [`docs/decisions/`](docs/decisions/) — decision records (ADRs)
+- [`docs/references.md`](docs/references.md) — references
+- [`docs/literature/`](docs/literature/) — reading notes
+- [`docs/experiments.md`](docs/experiments.md) — experiment log

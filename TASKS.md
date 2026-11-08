@@ -23,7 +23,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - [ ] Frente B mínima: mapeamento timetabling → MS-RCPSP + parser iMOPSE pequeno
 - [ ] `docs/reuniao-2026-11-10.md`
 
-## Leituras do usuário (o agente analisa tamanho/densidade e recomenda: completa, focada ou adiar)
+## Leituras (avaliar tamanho/densidade antes: completa, focada ou adiar)
 - [ ] Hartmann (1998) — AG com activity list `[fundamento]`
 - [ ] Definição de custo de estabilidade (proativo/reativo) `[fundamento]`
 - [ ] Kolisch & Sprecher (1997) — PSPLIB `[fundamento]`
