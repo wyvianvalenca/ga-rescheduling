@@ -1,0 +1,18 @@
+[project]
+name = "ga-rescheduling"
+version = "0.1.0"
+description = "Reprogramação de cronogramas de projetos com Algoritmos Genéticos"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
