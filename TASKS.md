@@ -9,8 +9,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
   - [x] TASKS.md, ADRs 0001–0004, references.md
   - [x] pyproject.toml / venv (uv, Python 3.12)
   - [x] Repositório público `ga-rescheduling` no GitHub + primeiro push
-- [ ] Parser PSPLIB `.sm` + download do j30 (+ ótimos conhecidos)
-- [ ] Modelo de dados, SGS serial, validador de viabilidade
+- [x] Parser PSPLIB `.sm` (testado na j301_1; download do conjunto j30 completo ainda pendente, exige aprovação)
+- [x] Modelo de dados, SGS serial, validador de viabilidade, limite CPM
 - [ ] Baseline sem AG: regra de prioridade + SGS; Gantt em PNG
 
 ### Domingo — AG da Frente A
